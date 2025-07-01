@@ -18,3 +18,7 @@ const loadExpenses = () => {
     const data = fs.readFileSync(expensesFile);
     return JSON.parse(data);
 }
+
+const saveExpenses = (expenses) => {
+    fs.writeFileSync(expensesFile, JSON.stringify(expenses, null, 2));
+}
