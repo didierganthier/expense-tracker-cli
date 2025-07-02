@@ -2,6 +2,9 @@
 
 A simple command-line tool to track your expenses, manage your personal budget, and view summaries — all from your terminal.
 
+# Project URL
+[https://roadmap.sh/projects/expense-tracker](https://roadmap.sh/projects/expense-tracker)
+
 ## Features
 
 - Add an expense with description and amount
